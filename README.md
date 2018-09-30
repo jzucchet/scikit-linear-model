@@ -18,10 +18,6 @@ Project available thru Jupyter notebook
 * [numpy](https://www.numpy.org/) - The package for scientific computing
 * [Jupyter](https://jupyter.org/) - The open-source web application for the notebook
 
-### Author
-
-* **Jean Zucchet** - *Initial work* - [GitHub](https://github.com/jzucchet/scikit-linear-model)
-
 ### License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
