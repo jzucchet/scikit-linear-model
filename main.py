@@ -42,6 +42,7 @@ plt.show()
 model = sklearn.linear_model.LinearRegression()
 ## Train the model
 model.fit(X, y)
+
 #Make a prediction for Cyprus
 X_new = [[22587]] # Cyprus GDP per capita
 print ("Cyprus' Life satisfaction based on a LinearRegression:",model.predict(X_new))
@@ -65,6 +66,6 @@ y = np.c_[country_stats['Life satisfaction']]
 model = sklearn.neighbors.KNeighborsRegressor(n_neighbors=3)
 ## Train the model
 model.fit(X, y)
-#Make a prediction for Cyprus
+#Make another prediction for Cyprus
 X_new = [[22587]] # Cyprus GDP per capita
 print ("Cyprus' Life satisfaction based on a KNeighborsRegressor:",model.predict(X_new))
