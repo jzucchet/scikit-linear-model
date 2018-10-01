@@ -5,7 +5,7 @@ Aurélien Geron exercises from [Hands-On Machine Learning with Scikit-Learn and 
 
 ## Getting Started
 
-Project available thru Jupyter notebook
+Project available thru Jupyter notebook or by simply running the python script
 
 ### Data sets
 
@@ -14,9 +14,24 @@ Project available thru Jupyter notebook
 
 ### Built With
 
-* [matpotLib](http://www.matpotlib.org) - The plotting library
+* [scikit-learn](http://scikit-learn.org/stable/) - The ML library
+* [matpotLib](https://matplotlib.org/) - The plotting library
 * [numpy](https://www.numpy.org/) - The package for scientific computing
 * [Jupyter](https://jupyter.org/) - The open-source web application for the notebook
+
+### Installing
+
+Install third-party libraries
+
+```
+python -m pip install -U  scipy matplotlib ipython jupyter pandas scikit-learn
+```
+
+### Running
+
+```
+./main.py
+```
 
 ### Acknowledgments
 
