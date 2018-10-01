@@ -29,6 +29,8 @@ python -m pip install -U  scipy matplotlib ipython jupyter pandas scikit-learn
 
 ### Running
 
+Simply run the script by executing:
+
 ```
 ./main.py
 ```
