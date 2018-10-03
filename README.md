@@ -37,6 +37,12 @@ Install third-party libraries
 ```
 pip install -r requirements.txt
 ```
+On Linux python-tk is required
+for Ubuntu
+```
+sudo apt install python-tk
+```
+
 
 ### Running
 
