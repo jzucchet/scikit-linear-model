@@ -52,6 +52,19 @@ Simply run the script by executing:
 ./main.py
 ```
 
+### Running Jupyter Notebook
+Requirements:
+```
+pip install jupyter_http_over_ws
+```
+```
+jupyter serverextension enable --py jupyter_http_over_ws
+jupyter notebook  --port=8888
+
+
+```
+
+
 ### Acknowledgments
 
 * Aurélien Geron - Handsome Machine Learning [GitHub](https://github.com/ageron/handson-ml)
