@@ -35,7 +35,7 @@ Project available thru Jupyter notebook or by simply running the python script
 Install third-party libraries
 
 ```
-python -m pip install -U  scipy matplotlib ipython jupyter pandas scikit-learn
+pip install -r requirements.txt
 ```
 
 ### Running
