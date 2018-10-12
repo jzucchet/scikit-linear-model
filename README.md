@@ -35,8 +35,14 @@ Project available thru Jupyter notebook or by simply running the python script
 Install third-party libraries
 
 ```
-python -m pip install -U  scipy matplotlib ipython jupyter pandas scikit-learn
+pip install -r requirements.txt
 ```
+On Linux python-tk is required
+for Ubuntu
+```
+sudo apt install python-tk
+```
+
 
 ### Running
 
@@ -45,6 +51,19 @@ Simply run the script by executing:
 ```
 ./main.py
 ```
+
+### Running Jupyter Notebook
+Requirements:
+```
+pip install jupyter_http_over_ws
+```
+```
+jupyter serverextension enable --py jupyter_http_over_ws
+jupyter notebook  --port=8888
+
+
+```
+
 
 ### Acknowledgments
 
